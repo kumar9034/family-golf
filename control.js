@@ -76,23 +76,23 @@ gsap.from(".cards",{
     }
 })
 gsap.from(".colon1",{
-    y:-65,
-    x:-60,
+    y:-10,
+    x:-10,
     scrollTrigger:{
         trigger:".colon1",
         scroller:"body",
-        start:"top 50%",
-        end:"top 45%",
+        start:"top 20%",
+        end:"top 70%",
         scrub:4
     }
 })
 gsap.from(".write-notic img",{
-    y:70,
-    x:70,
+    y:10,
+    x:20,
     scrollTrigger:{
         trigger:".write-notic img",
         scroller:"body",
-        start:"top 60%",
+        start:"top 50%",
         // markers:true,
         end:"top 40%",
         scrub:4
